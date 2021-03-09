@@ -1,0 +1,23 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+@font-face{
+    font-family: 'Myriad';
+    src: url("/fonts/Myriad/MyriadPro-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Myriad';
+    src: url("/fonts/Myriad/MyriadPro-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "header";
+@import "general";
+@import "doctors_schedule";

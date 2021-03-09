@@ -1,0 +1,12 @@
+.close-xbutton {
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 10;
+}
+svg {
+  cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.form-popbox.patient-change-record {
+	top: 33%;
+	left: 35%;
+	width: 460px;
+	height: 300px;
+}
+.form-popbox.patient-change-record .container .left-part{
+	padding: 12px 26px 16px;
+}
+.patient-change-record input, .patient-change-record select, .patient-change-record textarea {
+	border: 1px solid #DFE6EE;
+	border-radius: 4px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	padding: 11px;
+	line-height: 16px;
+	width: 100%;
+	color: #B0BAC5;
+}
+.patient-change-record input::placeholder, .patient-change-record select::placeholder, .patient-change-record textarea::placeholder{
+	color: #B0BAC5;
+}
+.patient-change-record select{
+	height: 40px;
+	padding: 11px 0px 11px 8px;
+}
+.patient-change-record .react-datepicker-wrapper{
+	width: 100%;
+}
+.patient-change-record .container .left-part .row{
+	margin-bottom: 8px;
+	align-items: center;
+}
+.patient-change-record .container .row.name {
+	margin-bottom: 12px;
+}
+.patient-change-record .container .left-part .row.shedule .text-right{
+	padding-right: 8px;
+}
+.patient-change-record.form-popbox .container .left-part .row.comment {
+	font-size: 11px;
+	margin-top: -8px;
+	color: #DBDBDB;
+}
+.patient-change-record .container .left-part .input-comment {
+	resize: none;
+	height: 72px;
+	color: #313541;
+}
+.patient-change-record .right-part {
+	height: 300px !important;
+}
+.patient-change-record .right-part button {
+	border-radius: 30px;
+	border-style: unset;
+	border-color: unset;
+	color: white;
+	height: 40px;
+	width: 99px;
+	outline: none;
+	font-size: 14px;
+}
+
+.patient-change-record .right-part .save-btn {
+	position: absolute;
+	bottom: 24px;
+}
+
+.patient-change-record .right-part .save-btn button {
+	background: #3b80d6;
+}
+.patient-change-record select::-webkit-scrollbar {
+	width: 10px;
+}
+.patient-change-record select::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.patient-change-record select::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+}
+

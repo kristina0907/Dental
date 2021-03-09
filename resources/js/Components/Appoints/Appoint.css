@@ -1,0 +1,626 @@
+.container{
+  width: 100%;
+}
+.collapse:not(.show) {
+  display: block;
+}
+.nav > li {
+   position: relative;
+   display: block;
+  float: left;
+  margin-right: 25px;
+ }
+.navbar-72 .navbar-collapse .navbar-nav {
+  float: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.med-directions-menu {
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px #b0bac5;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.med-directions-menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-inline-start: 0px;
+}
+.med-directions-menu ul li {
+  display: flex;
+  padding: 0 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  cursor:pointer;
+}
+.med-directions-menu ul li a {
+  border-bottom: 4px solid transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 38px;
+  color: #16181e;
+}
+.med-directions-menu ul li:hover a {
+  border-bottom: 4px solid #3b80d6;
+  color: #3b80d6;
+  text-decoration: none;
+}
+
+.med-directions-menu ul li a.active-link {
+  border-bottom: 4px solid #3b80d6;
+  color: #3b80d6;
+  text-decoration: none;
+}
+
+.main-schedule.ui-block {
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px #b0bac5;
+  margin-top: 40px;
+  padding-right: 40px;
+  height: auto;
+  max-height: 112vh;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
+.row.third {
+  padding-top: 16px;
+}
+.doctors-shedule {
+  text-align: center;
+}
+.top-row {
+  height: 106px;
+  padding-left: 38px;
+  padding-top: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+.top-row span {
+  margin: 0 6px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #aaa;
+}
+.doctors-shedule.row {
+  height: 40px;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 48px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: -0.6px;
+}
+.doctors-shedule .name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #313541;
+}
+.doctors-shedule .branch {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #16181e;
+  padding-bottom: 20px;
+}
+ul.patient-actions {
+  list-style: none;
+  padding-left: 12px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  display: flex;
+}
+ul.patient-actions li {
+  width: 20px;
+  height: 16px;
+  margin-right: 10px;
+}
+.patient-squad {
+  position: relative;
+  padding-bottom: 100px;
+  flex: 0 0 24%;
+  max-width: 24%;
+}
+.patient-shedule-wrap {
+  width: 224px;
+  display: flex;
+  padding: 0 0 16px 40px;
+  cursor: pointer;
+}
+.patient-shedule-block {
+  border-left: 10px solid transparent;
+  background: #F6F7F8;
+  border-radius: 10px;
+  min-width: 180px;
+  min-height: 42px;
+  padding-top: 10px;
+  margin-left: 16px;
+  text-align: left;
+}
+.patient-shedule-block.red {
+  border-left: 10px solid #e34c4c;
+}
+.patient-shedule-block.red_gray {
+  border-left: 10px solid #313541;
+}
+.patient-shedule-block.yellow {
+  border-left: 10px solid #f7b422;
+}
+.patient-shedule-block.green {
+  border-left: 10px solid #56bd5b;
+}
+.patient-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.patient-time {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  align-items: center;
+  text-align: right;
+  color: #313541;
+  cursor: default;
+}
+.patient-shedule-block.canceled .patient-name {
+  text-decoration: line-through;
+  text-decoration-color: #7F8A96;
+}
+/********************************************** Date Picker ****************************************************/
+.react-datepicker {
+  border: 0;
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 0 4px 30px 4px;
+}
+.react-datepicker__header {
+  border: 0;
+  background: #fff;
+}
+.react-datepicker__current-month {
+  border-bottom: 1px solid #eee;
+  padding-top: 11px;
+  padding-bottom: 17px;
+  font-size: 15px;
+}
+button.react-datepicker__navigation {
+  border: 0;
+  top: 24px;
+  width: 10px;
+  height: 16px;
+}
+.react-datepicker__navigation--previous {
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='16' viewBox='0 0 10 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.600788 8.43901L8.8296 15.8272C9.10201 16.0634 9.53612 16.0566 9.79921 15.812C10.0559 15.5734 10.0559 15.1952 9.79921 14.9566L2.05521 8.00373L9.79921 1.05084C10.0669 0.810435 10.0669 0.42068 9.79921 0.180276C9.53141 -0.0600929 9.09735 -0.0600929 8.8296 0.180276L0.600788 7.56845C0.333071 7.80889 0.333071 8.1986 0.600788 8.43901Z' fill='%23868789'/%3E%3C/svg%3E");
+  left: 19px;
+}
+.react-datepicker__navigation--next {
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='16' viewBox='0 0 10 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.39921 7.56099L1.1704 0.172821C0.897986 -0.0633983 0.463885 -0.0566162 0.200788 0.187973C-0.0558799 0.426573 -0.0558799 0.80482 0.200788 1.04338L7.94479 7.99627L0.200788 14.9492C-0.0669294 15.1896 -0.0669294 15.5793 0.200788 15.8197C0.468586 16.0601 0.902647 16.0601 1.1704 15.8197L9.39921 8.43155C9.66693 8.19111 9.66693 7.8014 9.39921 7.56099Z' fill='%23868789'/%3E%3C/svg%3E%0A");
+  right: auto;
+  left: 45px;
+}
+.react-datepicker__week {
+  display: flex;
+}
+.react-datepicker__month {
+  margin: 1px 0 0;
+}
+.react-datepicker__day-name {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #d0dae5;
+  width: 39px;
+  margin: 0;
+}
+.react-datepicker__day-names {
+  display: flex;
+  justify-content: center;
+  padding-top: 14px;
+}
+.react-datepicker__day {
+  border: 0;
+  margin: 0;
+  width: 39px;
+  height: 40px;
+  color: #868789;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.react-datepicker__day.react-datepicker__day--outside-month {
+  color: #dfe6ee;
+}
+.react-datepicker__day.react-datepicker__day--selected {
+  border-radius: 8px;
+  background: #e34c4c;
+  color: #f6f7f8;
+}
+.react-datepicker__day.react-datepicker__day--keyboard-selected {
+  border: 0 !important;
+  background: rgba(227, 76, 76, 0.5);
+  color: #fff;
+}
+.ui-datepicker .ui-datepicker-next {
+  left: 22px;
+}
+.hasDatepicker .ui-widget.ui-widget-content{
+  border: 0;
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  min-width: 280px;
+}
+.hasDatepicker .ui-datepicker-header {
+  background: none;
+  border: 0;
+  padding: 16px 0;
+}
+.hasDatepicker .ui-state-default{
+  border: 0;
+  border-bottom: 4px solid #e34c4c;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px 8px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.react-datepicker__day .red{
+  border-bottom: 4px solid #E34C4C;
+  border-radius: 2px;
+}
+.react-datepicker__day .yellow{
+  border-bottom: 4px solid #F7B422;
+  border-radius: 2px;
+}
+.react-datepicker__day .green{
+  border-bottom: 4px solid #56BD5B;
+  border-radius: 2px;
+}
+.react-datepicker__day .red.opaque{
+  border-color: rgba(227,76,76,0.3);
+}
+.react-datepicker__day .yellow.opaque{
+  border-color: rgba(247,180,34,0.3);
+}
+.react-datepicker__day .green.opaque{
+  border-color: rgba(86,189,91,0.3);
+}
+/******************************************************* filters ******************************************************/
+.filters-box {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  height: 344px;
+  padding: 15px;
+  font-size: 13px;
+}
+.filters-box .row {
+  margin: 0;
+}
+.filters-box .row.title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.filters-box .row div {
+  padding: 0;
+  padding-bottom: 12px;
+}
+.filters-box .row select {
+  border: 1px solid #dfe6ee;
+  border-radius: 4px;
+  background: #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #b0bac5;
+  padding-left: 8px;
+}
+.filters-box .row select option {
+  padding: 8px;
+}
+.filters-box .intervals div {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.filters-box .buttons {
+  padding-top: 20px;
+}
+.filters-box .clear {
+  text-align: right;
+}
+.filters-box .row button {
+  border: 0;
+  border-radius: 15px;
+  height: 32px;
+  padding: 0 11px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #f6f7f8;
+}
+.filters-box .clear button {
+  background: #fe9841;
+  margin-right: 8px;
+}
+.filters-box .update button {
+  background: #3b80d6;
+  margin-left: 8px;
+}
+/**************************************************** Живая лента *****************************************************/
+.livefeed-box {
+  background: #ffffff;
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px 15px;
+  width: 280px;
+  height: auto;
+  margin-left: 16px;
+  float: right;
+}
+.event-wrap {
+  background: #f4f7fa;
+  border-bottom: 1px solid #dfe6ee;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 72px;
+  padding-right: 4px;
+}
+.event-wrap.odd {
+  background: #fff;
+}
+.livefeed-box .row{
+  margin: 0;
+}
+.event-wrap .col-sm-6.col-md-6.col-lg-6 {
+  padding: 0;
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+}
+#events-box {
+  border: 1px solid #dfe6ee;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #313541;
+  text-align: left;
+}
+.livefeed-box .event-wrap div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.livefeed-box .row .col-lg-12,.livefeed-box .row .col-lg-6{
+  margin: 0;
+  padding: 0;
+}
+.livefeed-box .buttons {
+  display: flex;
+  padding-bottom: 6px;
+}
+.livefeed-box .buttons button {
+  border: 0;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+}
+.livefeed-box .buttons button.call {
+  background: url("media/call.png");
+}
+.livefeed-box .buttons button.calendar {
+  background: url("media/canceled_apps.png");
+  background-position: -6px -6px;
+  width: 60px;
+  height: 60px;
+  margin-top: -6px;
+  margin-left: 10px;
+}
+.livefeed-box .event-wrap div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.livefeed-box .event-wrap div span{
+  margin-left: 5px;
+}
+/**********************************************************************************************************************/
+.patient-appoint {
+  border: 0;
+  border-radius: 30px;
+  background-color: #3b80d6;
+  width: 100px;
+  color: white;
+  box-shadow: none !important;
+  height: 40px;
+  line-height: 20px;
+  margin-left: 82px;
+  padding-bottom: 5px;
+  position: absolute;
+  left: 52px;
+  bottom: 52px;
+  font-weight: 300;
+}
+.unvisible {
+  display: none;
+}
+
+.patient-empty-block {
+  border-radius: 50px;
+  width: 100px;
+  height: 10px;
+  color: lightgrey;
+  height: 16px !important;
+  position: absolute;
+}
+
+.main-schedule-title .patient-block {
+  height: 40px;
+  background: #b0bac5;
+  border-radius: 10px;
+}
+
+.hide-shedule-btn button {
+  border: none;
+  background: #b0bac5;
+  border-radius: 5px;
+  width: 16px;
+  height: 4px;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+/*.patient-squad:nth-last-child(-n + 1) {     // зачем???
+  margin-bottom: 40px;
+}*/
+.circle-btn {
+  padding-top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-btn button {
+  border: 1px solid #868789;
+  border-radius: 50px;
+  border-color: #868789;
+  min-width: 32px;
+  min-height: 32px;
+  position: relative;
+  background: transparent;
+}
+.circle-btn button:active,
+.circle-btn button:focus {
+  outline: none;
+}
+.circle-btn button::-moz-focus-inner {
+  border: 0;
+}
+.left-line hr,
+.right-line hr {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.appoint_center_block{
+flex-wrap: nowrap !important;
+}
+.paper-container svg {pointer-events: none;}
+.tooth {pointer-events: auto;}
+.tooth.not_verified {
+    stroke: #868789;
+    fill: #FFFFFF;
+    stroke-width: 0.4;
+}
+
+.tooth.healthy {
+    stroke: #F6F7F8;
+    fill: #56BD5B;
+    stroke-width: 0.5;
+}
+.tooth.active {
+    fill: #3B80D6;
+    stroke: #FFFFFF;
+    stroke-width: 1;
+}
+.tooth.cured {
+    fill: #56BD5B;
+    stroke: #FFFFFF;
+    stroke-width: 1;
+}
+.tooth.artificial,
+.tooth.filled,
+.tooth.crown {
+    fill: #F7B422;
+    stroke: #F6F7F8;
+    stroke-width: 1;
+}
+.tooth.radix,
+.tooth.caries,
+.tooth.pulpitis,
+.tooth.periodontitis{
+    fill: #E34C4C;
+    stroke: #F6F7F8;
+    stroke-width: 1;
+}
+.tooth.undefined {
+    fill: #868789;
+    stroke: #16181E;
+    stroke-width: 1;
+}
+.tooth.number {
+    stroke-width: 1;
+    pointer-events: none;
+}
+.children .tooth.opacity {
+    opacity: 0.4;
+}
+.custom-btn {
+    height: 50px;
+    width: 50px;
+    margin: 10px 15px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 14px rgba(176, 186, 197, 0.600289);
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #667587;
+}
+.tooth-card .MuiIconButton-colorPrimary,
+.custom-btn.active,
+.custom-btn.active path{
+    background: #3B80D6;
+    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+.tooth-card .MuiIconButton-colorPrimary:hover,
+.custom-btn.active:hover,
+.custom-btn.active:hover path {
+    background: #3B80D6;
+    fill: #ffffff;
+    color: #FFFFFF;
+}
+

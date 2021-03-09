@@ -1,0 +1,89 @@
+.record-saved {
+  background: #F6F7F8;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  width: 513px;
+  height: 340px;
+  text-align: center;
+  position: fixed;
+  top: 32%;
+  left: 34%;
+  font-size: 14px;
+  display: block;
+  z-index: 3 !important;
+}
+.record-saved .container {
+  padding: 40px 52px!important;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  color: #313541;
+}
+.record-saved .container .row {
+  margin: 0;
+}
+.record-saved .container .row.green-box {
+  background: rgba(86, 189, 91, 0.05);
+  margin-bottom: 12px;
+}
+.record-saved .container .row .col-lg-12,.record-saved .container .row .col-lg-6,.record-saved .container .row .col-lg-7 {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+}
+.green-box {
+  border: 1px solid #56BD5B;
+  border-radius: 3px;
+  width: 409px;
+  height: 52px;
+  padding: 0;
+}
+.left-box,
+.right-box {
+  text-align: left;
+}
+.green-box .appoint {
+  line-height: 50px;
+  padding-left: 16px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.green-box .succs-img {
+  background: #56bd5b;
+  width: 50px;
+  height: 51px;
+}
+.input-recordSaved {
+  background: #FFFFFF;
+  border: 1px solid #DFE6EE;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 100px;
+  margin-top: 8px;
+  padding: 8px 12px;
+  resize: none;
+}
+.input-recordSaved::placeholder {
+  margin-bottom: 20px;
+  color: #B0BAC5;
+}
+.check {
+  margin-top: 20px;
+}
+.record-saved .patient-name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 38px;
+  margin:0;
+}
+.record-saved .phone {
+  display: flex;
+  align-items: center;
+}
+.phone strong {
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 12px;
+}

@@ -1,0 +1,63 @@
+
+.search_results .row {
+  border-bottom: 1px solid #F6F7F8;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 43px;
+  text-align: right;
+  list-style-type: none;
+  color: #656565;
+  margin: 0;
+}
+.search_results .row:hover{
+  border-bottom: 1px solid #DFE6EE;
+  background: #F4F7FA;
+  cursor: pointer;
+}
+.search_results .row:first-child:hover{
+  border-color:transparent;
+  background: none;
+  cursor: default;
+}
+.search_results .row .first-col{
+  max-width: 110px;
+  padding-right: 15px;
+  text-align: right;
+}
+.search_results .row .birthday-col{
+  text-align: left;
+}
+.search_results .col-lg-2{
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding: 0;
+  text-align: left;
+}
+.search_results .col-lg-4{
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding: 0;
+  text-align: left;
+}
+.search_results .col-lg-2 ul {
+  padding: 0 20px 0 0;
+}
+.search_results p {
+  border-bottom: 1px solid #F6F7F8;
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 32px;
+  padding-bottom: 5px;
+  text-align: left;
+  color: #494949;
+  margin-bottom: 0;
+}
+.search_results .first-col p {
+  text-align: right;
+}
+.search_results .col-lg-4:nth-child(2) ul {
+  padding: 0 !important;
+}
+.search_results .col-lg-4:nth-child(2) li {
+  text-align: left;
+}

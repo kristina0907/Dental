@@ -1,0 +1,111 @@
+.patient-appoint-form {
+    border-radius: 5px;
+    background: #f6f7f8;
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.3);
+    display: block;
+    position: fixed;
+    /*  top: 35%;
+  left: 28%;*/
+    top: 310px;
+    left: 531px;
+    bottom: 0;
+    right: 0;
+    width: 800px;
+    height: 288px;
+    text-align: center;
+    z-index: 1;
+}
+
+.patient-appoint-form-input {
+    border: 0;
+    background: #ffffff;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 17px;
+    color: #868789;
+    text-align: left;
+    padding: 15px 20px;
+}
+.patient-appoint-form :-ms-input-placeholder {
+    text-align: left;
+}
+.patient-appoint-form-input::placeholder {
+    text-align: left;
+}
+.input_container:after {
+    /*content: '';*/
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGMSURBVHgBnZPbTetAEIb/GQcO0nlxB4cSXIKp4IQKQgfAExgLZSMUNuQFqIBQAaIDOsB04BL8SsTOMEsELBAu4n/wXueby44JicbTaUGiAyj6tlwHqLOxUQmXdV3NsET0PPH+ZKiAA/QmKJ1zj1oJIc+UCyJs2xnmkA1XVe0HwMKYdgLC5mFV3SzzNPaTMwL9fw9h7/169ByN48aR9+UyQF3t71h07Sqyi3SfQdmQoLMe0GbIrlhi7stltdi1b+mcy18Aqlqo0rUqx8I1nxXrKYq6buKdlZU//dcIAAM8tIAUBGnxnVTugNcoe/GphDm3iZOM828BRP+g2iYAaVi4rOo9hx+JC+EwelnB8ifGIC3MZxp7v2U5dOlT83y+OovNsLb2d/iVcXxuQnaqIqM38Ti3a+0qG6rSP56cXDm7+N54MplaJ2a35j0nYk3PKPWwaGUeqKKxtNqnA6VyMepISToCX9i/snVwsHf5BpCCBChhDWXeukDShPv7xmrUPdchhRB+oRTyK0ACGT4C4rS8kMAAARMAAAAASUVORK5CYII=);
+    position: absolute;
+    right: 125px;
+    top: 27px;
+    width: 16px;
+    height: 16px;
+}
+.patient-appoint-form .text {
+    margin-top: 51px !important;
+    font-style: normal;
+    font-size: 11.5px;
+    font-weight: 500;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #313541;
+    padding: 0;
+}
+.patient-appoint-form .text p {
+    margin-left: -60px;
+    margin-bottom: 18px;
+}
+
+.patient-appoint-form .input_container {
+    text-align: center;
+}
+.button_appoint {
+    margin-left: 162px;
+}
+.popbox_buttons button,
+.search_results.empty button {
+    border: 0;
+    border-radius: 50px !important;
+    height: 40px;
+    width: 160px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #f6f7f8;
+    padding-bottom: 4px;
+}
+.popbox_buttons .button_appoint button {
+    background: #3b80d6 !important;
+}
+.popbox_buttons .button_add_patient button,
+.search_results.empty button {
+    border-color: #fe9841 !important;
+    border-style: none !important;
+    background: #fe9841;
+    border-radius: 50px;
+    box-shadow: none;
+    color: white;
+    height: 40px;
+    width: 220px;
+}
+.search_results.empty button {
+    background: #3b80d6;
+    margin-bottom: 24px;
+}
+.search_results.empty {
+    font-size: 11px;
+    line-height: 20px;
+    color: #494949;
+    z-index: 0;
+}
+.search_results.empty .title {
+    margin: 32px 0 8px;
+    font-weight: 500;
+}

@@ -1,0 +1,142 @@
+.add-new-record {
+  border-radius: 5px;
+  background: #f6f7f8;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 17%;
+  left: 28%;
+  width: 800px;
+  height: 692px;
+  text-align: center;
+  font-size: 11px;
+  display: block;
+  z-index: 1;
+}
+.add-new-record .container {
+  margin: 0;
+  padding: 0;
+}
+.visible {
+  display: unset !important;
+}
+.add-new-record .col-lg-12 {
+  margin: 0;
+  padding: 0;
+}
+
+.add-new-record .row {
+  margin-left: 0;
+}
+.add-new-record .row.gender {
+  width: 100%;
+}
+.add-new-record .row.headers {
+  margin-top: 52px !important;
+  margin-left: 52px;
+  margin-bottom: 30px !important;
+}
+.add-new-record .headers .input-name {
+  text-align: left;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+.add-new-record .headers .input-name span {
+  padding-right: 8px;
+  font-weight: 400;
+}
+.add-new-record .headers .input-name span {
+  padding-right: 8px;
+  font-weight: 400;
+}
+.add-new-record .col-lg-7.right-col {
+  padding-right: 35px;
+}
+
+.add-new-record .med-card {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 37px;
+  float: none;
+  margin-bottom: 24px!important;
+}
+.add-new-record .med-card span {
+  padding-right: 8px;
+}
+.add-new-record .row .input-name {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+.add-new-record-input {
+  height: 40px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dfe6ee;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: .2rem!important;
+}
+.add-new-record-input::placeholder {
+  color: #b0bac5;
+}
+.add-new-record .row.splitted div {
+  padding: 0;
+  display: flex;
+}
+#root-appoint .add-new-record .row.splitted {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px !important;
+}
+.add-new-record .col-lg-4 {
+  line-height: 35px;
+}
+.add-new-record .row .flat {
+  display: flex;
+  margin-left: -12px;
+}
+.add-new-record .save-button {
+  border: 0;
+  border-radius: 30px;
+  background-color: #3b80d6;
+  width: 150px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f6f7f8;
+  padding-bottom: 4px;
+}
+
+.add-new-record .close-btn {
+  position: absolute;
+  right: 20px;
+}
+.comment {
+  height: 90px;
+}
+
+.input-name {
+  text-align: right;
+}
+input[name="gender"] {
+  border-color: #3b80d6;
+}
+input[type="radio"] {
+  position: absolute !important;
+  left: 0px !important;
+  bottom: 10px !important;
+}
+.input-name-row {
+  text-align: left;
+}
+.man,
+.woman {
+  line-height: 35px;
+}
+.man span,
+.woman span {
+  padding-left: 5px;
+}
